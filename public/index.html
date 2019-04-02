@@ -1,12 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es"></html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Certo Signore</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do"/>
+  <link rel="stylesheet" href="./css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="./css/materialize.min.css"/>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <div>CERTO SIGNORE HOME PAGE</div>
+  <div class="se-pre-con">
+    <div class="preloader-wrapper active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar-fixed">
+    <nav class="z-depth-0">
+      <div class="nav-wrapper"><a href="#inicio" class="brand-logo">Certo Signore</a><a data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars"></i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#costura">COSTURA</a></li>
+          <li><a href="#trajes">TRAJES</a></li>
+          <li><a href="#historia">HISTORIA</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+        <ul id="mobile-demo" class="side-nav">
+          <li><a href="#costura" onClick="$('.button-collapse').sideNav('hide')">COSTURA</a></li>
+          <li><a href="#trajes" onClick="$('.button-collapse').sideNav('hide')">TRAJES</a></li>
+          <li><a href="#historia" onClick="$('.button-collapse').sideNav('hide')">HISTORIA</a></li>
+          <li><a href="#contacto" onClick="$('.button-collapse').sideNav('hide')">CONTACTO</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div id="inicio" class="seccion">
+    <div class="slider fullscreen">
+      <ul class="slides">
+        <li><img src="./images/keanu.jpg"/>
+          <div class="caption left-align">
+            <h3>Titulo sobre el traje</h3>
+            <h5 class="light grey-text text-lighten-3">Texto descripcion sobre como se hizo el traje.</h5>
+          </div>
+        </li>
+        <li><img src="./images/tom.jpg"/>
+          <div class="caption right-align">
+            <h3>Titulo sobre el traje</h3>
+            <h5 class="light grey-text text-lighten-3">Texto descripcion sobre como se hizo el traje.</h5>
+          </div>
+        </li>
+        <li><img src="./images/brad.jpg"/>
+          <div class="caption left-align">
+            <h3>Titulo sobre el traje</h3>
+            <h5 class="light grey-text text-lighten-3">Texto descripcion sobre como se hizo el traje.</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="costura" class="seccion">
+    <div class="contenedor-tiras">
+      <div class="contenedor-texto">
+        <div>
+          <h3 class="texto-titulo">SHOULDER</h3>
+          <p class="texto">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a</p>
+        </div>
+        <div>
+          <h3 class="texto-titulo">TROUSER BREAK</h3>
+          <p class="texto">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a</p>
+        </div>
+        <div>
+          <h3 class="texto-titulo">SLEEVE LENGTH</h3>
+          <p class="texto">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a</p>
+        </div>
+      </div>
+      <div><img src="images/Suits.png"/></div>
+      <div class="contenedor-texto">
+        <div>
+          <h3 class="texto-titulo">JACKET COLLAR</h3>
+          <p class="texto">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a</p>
+        </div>
+        <div>
+          <h3 class="texto-titulo">TROUSER SEAT</h3>
+          <p class="texto">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="trajes" class="seccion">
+    <div class="contenedor-fondos-chicos">
+      <div class="fondo-chico chico-01">
+        <h3 class="fondo-chico-titulo">STREET MAN</h3>
+      </div>
+      <div class="fondo-chico chico-02">
+        <h3 class="fondo-chico-titulo">BRITISH STYLE</h3>
+      </div>
+      <div class="fondo-chico chico-03">
+        <h3 class="fondo-chico-titulo">URBAN BOY</h3>
+      </div>
+    </div>
+  </section>
+  <section id="historia" class="seccion">
+    <div class="contenedor-historia">
+      <h2 class="historia-titulo">Certo Signore</h2>
+      <p class="historia-texto">Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Nulla porttitor accumsan tincidunt. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+    </div>
+  </section>
+  <section id="contacto" class="seccion">
+    <div class="contenedor-footer">
+      <div class="mapa"></div>
+      <div class="contenedor-formulario">
+        <div class="formulario">
+          <form>
+            <input placeholder="NOMBRE" class="input"/>
+            <input placeholder="EMAIL" class="input"/>
+            <input placeholder="CELULAR" class="input"/>
+            <textarea placeholder="ASUNTO" rows="4" class="input"></textarea>
+            <button class="boton">ENVIAR</button>
+          </form>
+          <div class="contacto-email">rubengalvan@certosignore.com</div>
+          <div class="contacto-celular">1159481254</div>
+          <div class="contenedor-socials"><i class="fa fa-pinterest-p"></i><i class="fa fa-facebook"></i><i class="fa fa-twitter"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/materialize.min.js"></script>
+  <script src="scripts.js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+    	$(".se-pre-con").fadeOut("slow");
+    });
+  </script>
 </body>
-</html>
