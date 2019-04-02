@@ -4,17 +4,12 @@
   "description": "pagina web certo signore sastre a medida",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node server"
+    "start": "node server"
   },
   "author": "pha",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.4.3"
   },
   "engines": {
     "node": "10.15.3"
