@@ -7,9 +7,5 @@ const PORT = process.env.NODE_PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(PORT, err => {
-  if (!err) {
-    console.log(`app running on port ${PORT}`);
-  } else {
-    console.log('ERROR', err);
-  }
+  err ? console.log('ERROR', err) : console.log(`server running on port ${PORT}`);
 });
