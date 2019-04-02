@@ -17,7 +17,7 @@
     "@babel/preset-env": "^7.4.3"
   },
   "engines": {
-    "node": "current"
+    "node": "10.15.3"
   },
   "browserslist": [
     "> 1%",
